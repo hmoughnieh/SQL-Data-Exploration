@@ -17,7 +17,7 @@ Update NashvilleHousing
 SET SaleDateConverted = CONVERT(Date,Saledate)
 
 
--- Spit Address by Address, City & State
+-- Split Address by Address, City & State
 
 ALTER TABLE NashvilleHousing
 Add OwnerSplitAddress Nvarchar(255);
